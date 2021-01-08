@@ -1,0 +1,39 @@
+@font-face{
+	font-family: "Bangers";
+	src: url('font/Bangers/Bangers-Regular.ttf');
+}
+
+@font-face{
+	font-family: 'Lobster';
+	src: url('font/Lobster/Lobster-Regular.ttf');
+}
+
+@font-face{
+	font-family:'Opens_Sans_Lightitalic';
+	src: url('font/Opens_Sans_Condensed/OpenSansCondensed-Lightitalic.ttf');
+}
+
+@font-face{
+	font-family:'Opens_Sans_Bold';
+	src: url('font/Opens_Sans_Condensed/OpenSansCondensed-Bold.ttf');
+}
+
+@font-face{
+	font-family:'Opens_Sans_Light';
+	src: url('font/Opens_Sans_Condensed/OpenSansCondensed-Light.ttf');
+}
+
+@font-face{
+	font-family: 'Libre_Baskerville_Bold';
+	src:url('font/Libre_Baskerville/LibreBaskerville-Bold.ttf');
+}
+
+@font-face{
+	font-family: 'Libre_Baskerville_Regular';
+	src:url('font/Libre_Baskerville/LibreBaskerville-Regular.ttf');
+}
+
+@font-face{
+	font-family: 'Libre_Baskerville_Italic';
+	src:url('font/Libre_Baskerville/LibreBaskerville-Italic.ttf');
+}

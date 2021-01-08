@@ -1,0 +1,226 @@
+*{
+	font-family:Libre_Baskerville_Bold;
+	margin: 0;
+	padding: 0;
+}
+
+div#logo img{
+	width: 150px;
+	height: 150px;
+	float: left;
+	padding-right: 0px;
+}
+
+div#logo h1{
+	font-family: Bangers;
+	font-size: 45px;
+	padding-top: 55px;
+}
+
+div#logo{
+	margin: 10px 700px;
+}
+
+.clear{
+	clear: both;
+}
+
+div#navbar a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+div#navbar a.active, div#navbar a:hover{
+	border-bottom: 2px solid yellow;
+}
+
+div#navbar ul li{
+	display: inline;
+	line-height: 60px;
+	padding: 0px 20px;
+}
+
+div#navbar{
+	background-color: black;
+	margin-top: 10px;
+}
+
+div#navbar{
+	padding: 0px 50px;
+}
+
+div#navbar ul li a,
+div#navbar ul li a:after,
+div#navbar ul li a:before{
+	transition: all .5s;
+}
+
+div#navbar ul li a{
+	position: relative;
+}
+
+div#banner img{
+	width: 100%;
+	height: 600px;
+	object-fit: cover;
+}
+
+div#banner i{
+	position: absolute;
+	top:35%;
+	left:48%;
+	font-size: 80px;
+	color: green;
+}
+
+div#banner div.quote{
+	position: absolute;
+	top:43.5%;
+	left:44.5%;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 30px;
+	font-size: 40px;
+}
+
+
+div#offer, div#shop, div#special, div#menu {
+	margin: 120px 0px;
+	text-align:center;
+	padding: 0 150px;
+}
+
+div#offer h1, div#shop h1, div#special h1, div#menu h1{
+	color:#ddaa20;
+	font-size: 50;
+	margin-bottom: 20px;
+}
+
+div#offer p{
+	font-size: 15px;
+}
+
+div#offer hr, div#shop hr, div#special hr, div#menu hr{
+	height: 1px;
+	color:#000;
+	background-color: #000;
+	width: 50%;
+	text-align: center;
+	margin: 50px auto;
+}
+
+div#offer div.offer_column{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-column-gap: 50px;
+	margin-top: 50px;
+}
+
+div#offer div.offer_column i{
+	font-size: 50px;
+	color: #ddaa20;
+	background-color: black;
+	padding:18px;
+	border-radius: 50%;
+}
+
+div#offer div.offer_column h3{
+	margin:30px 0px;
+	font-size: 30px;
+	opacity: 0.7;
+	text-transform: uppercase;
+}
+
+div#offer div.offer_column p{
+margin-top: 15px;
+}
+
+div#shop img{
+	width: 300px;
+	height: 400px;
+	object-fit: cover;
+}
+
+div#shop {
+	padding: 50px;
+	background-color:#D3D3D3;
+}
+
+div#shop div.shop_column{
+	display: grid;
+	grid-template-columns: auto auto;
+	padding-bottom: 30px;
+}
+
+div#shop div.shop_column div.shop_two h3{
+	text-align: left;
+	font-family: OpenSansCondensed;
+	padding-left: 30px;
+	margin-top: 20px;
+}
+
+div#shop div.shop_column div.shop_two p{
+	color:black;
+	text-align: left;
+	font-size: 15px;
+	padding: 30px;
+}
+
+div#special div.special_photos{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-column-gap: 30px;
+	padding:50px 0px;
+}
+
+div#special div.special_photos div.special_photos_one img{
+	width: 600px;
+	height: 655px;
+	display: block;
+	object-fit: cover;
+}
+
+div#special div.special_photos div.special_photos_two img{
+	width: 720px;
+	height: 200px;
+	object-fit: cover;
+}
+
+div#special div.special_photos div.special_photos_two div.special_photos_three img{
+	width: 360px;
+	height: 450px;
+}
+
+div#menu div.daily_menu{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-column-gap: 30px;
+	padding: 50px 0px;
+}
+
+div#menu div.daily_menu div.menu_one img{
+	width: 600px;
+	height: 655px;
+	display: block;
+	object-fit: cover;
+}
+
+div#menu div.daily_menu div.menu_two h2{
+	text-align: justify;
+	padding: 30px 30px 30px 10px;
+	margin: 50px;
+}
+
+div#menu div.daily_menu div.menu_two ol li{
+	padding: 20px;
+	text-align: justify;
+}
+
+footer{
+	padding: 30px;
+	color: white;
+	text-align: center;
+	background-color: black;
+}
